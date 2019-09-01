@@ -1,0 +1,32 @@
+body{
+	font-family:  sans-serif;
+	font-size: 20px;
+}
+
+.container{
+	text-align: center;
+	margin: 10%;
+	
+}
+
+.txt{
+	margin: 5px;
+	height: 20px;
+	width: 190px;
+	border-radius:3px;
+	font: 20px;
+}
+
+.submit{
+	
+	height: 20px;
+	border-radius:3px;
+}
+
+
+h3{
+	text-align: center;
+	margin: 2%;
+	font-size: 30px;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Date Validation</title>
+    <script src="js/checkDate.js"></script>
+    <script src="js/date.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+
+<body>
+    <h3>Buggy Date Program </h3>
+    <div class="container">
+
+        <form onsubmit="return submitDate()">
+            <label>Date:</label>
+            <input class="txt" type="text" name="from-date" id="from" maxlength="15">
+            <input class="submit" type="submit" value="Submit">
+        </form>
+        <p id="result"></p>
+    </div>
+</body>
+
+</html>
