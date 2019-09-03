@@ -2,7 +2,7 @@ function submitDate() {
     var value = document.getElementById("from").value
     let date = value.split("-");
     if (date.length >= 3)
-        if (isValidDate(date[0], date[1], date[2]))
+        if (isValidDate(parseInt(date[0]), parseInt(date[1]), parseInt(date[2])))
             displyResult("Valid Date")
         else
             displyResult("Invalid Date")
