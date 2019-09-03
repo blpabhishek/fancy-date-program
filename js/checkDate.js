@@ -1,16 +1,1 @@
-function submitDate() {
-    var value = document.getElementById("from").value
-    let date = value.split("-");
-    if (date.length >= 3)
-        if (isValidDate(parseInt(date[0]), parseInt(date[1]), parseInt(date[2])))
-            displyResult("Valid Date")
-        else
-            displyResult("Invalid Date")
-    else
-        displyResult("Wrong Format Ex: 01-01-2006")
-    return false;
-}
-
-function displyResult(result) {
-    document.getElementById("result").innerHTML = result; 
-}
+var _0xc76a = ['from', 'value', 'split', 'length', 'Invalid\x20Date', 'Wrong\x20Format\x20Ex:\x2001-01-2006', 'getElementById', 'result', 'innerHTML']; (function (_0x9f630, _0x4e81cf) { var _0x384c12 = function (_0x70ced6) { while (--_0x70ced6) { _0x9f630['push'](_0x9f630['shift']()); } }; _0x384c12(++_0x4e81cf); }(_0xc76a, 0x1b9)); var _0x2778 = function (_0x2dcd38, _0x105ce5) { _0x2dcd38 = _0x2dcd38 - 0x0; var _0x2e69ff = _0xc76a[_0x2dcd38]; return _0x2e69ff; }; function submitDate() { var _0x44636a = document['getElementById'](_0x2778('0x0'))[_0x2778('0x1')]; let _0x2dd6a9 = _0x44636a[_0x2778('0x2')]('-'); if (_0x2dd6a9[_0x2778('0x3')] >= 0x3) if (isValidDate(parseInt(_0x2dd6a9[0x0]), parseInt(_0x2dd6a9[0x1]), parseInt(_0x2dd6a9[0x2]))) displyResult('Valid\x20Date'); else displyResult(_0x2778('0x4')); else displyResult(_0x2778('0x5')); return ![]; } function displyResult(_0x2a1580) { document[_0x2778('0x6')](_0x2778('0x7'))[_0x2778('0x8')] = _0x2a1580; }
